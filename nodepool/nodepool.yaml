@@ -47,9 +47,9 @@ diskimages:
 providers:
   - name: local_01
 #TODO: Update the provider username, password, and authurl
-    username: '<%= provider_username %>'
-    password: '<%= provider_password %>'
-    auth-url: 'http://<openstack cloud>:5000/v2.0'
+    username: 'admin'
+    password: 'admin'
+    auth-url: 'http://10.62.98.52:5000/v2.0'
     project-name: 'admin'
     max-servers: 2
     images:
